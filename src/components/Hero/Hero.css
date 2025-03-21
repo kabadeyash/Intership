@@ -1,0 +1,60 @@
+.hero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+.hero img {
+    margin-top: 30px;
+    height: 300px;
+    width: 300px;  /* Ensure width and height are the same for a perfect circle */
+    border-radius: 50%;
+    object-fit: cover; /* Ensures the image fills the circular area properly */
+}
+.hero h1{
+    text-align: center;
+    width: 70%;
+    font-size: 82px;
+    font-weight: 600;
+}
+.hero h1 span{
+    background: linear-gradient(270deg,#DF8908 10%,#B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+
+}
+.hero p{
+    width: 50%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 40px;
+}
+.hero-action{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.hero-connect{
+    padding: 30px 45px;
+    border-radius: 50px;
+    background: linear-gradient(270deg,#DF8908 10%,#B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    cursor: pointer;
+
+}
+.hero-resume{
+    padding: 20px 35px;
+    border-radius: 50px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.hero-resume:hover{
+    border-color: #B415FF;
+}
+
